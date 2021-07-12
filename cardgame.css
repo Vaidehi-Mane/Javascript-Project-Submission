@@ -1,0 +1,49 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'segoe UI';
+}
+.container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width:80%;
+    margin-left:10%;
+    /*background-color: gray;*/
+}
+.padd{
+    padding:20px;
+}
+.header{
+    height:50px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(240, 230, 140);
+    border-radius: 6px;
+
+}
+.cards{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: orange;
+    border-radius: 10px;
+    padding-block-end: 10px;
+}
+.opened{
+    display: none;
+}
+.card{
+    height: 300px;
+    width: 18%;
+    background-color: red;
+    margin-top: 20px;
+    background-size: cover;
+}
+.overlay{
+    height: 300px;
+    width: 100%;
+    background-color:gray;
+    
+}
